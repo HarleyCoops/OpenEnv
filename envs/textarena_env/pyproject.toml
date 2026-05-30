@@ -19,7 +19,7 @@ dependencies = [
     "fastapi>=0.115.0",
     "pydantic>=2.0.0",
     "uvicorn>=0.24.0",
-    "requests>=2.31.0",
+    "requests>=2.33.0",
     # Environment-specific dependencies
     # Add all dependencies needed for your environment here
     # Examples:
@@ -29,14 +29,14 @@ dependencies = [
     # "openspiel>=1.0.0",
     # "smolagents>=1.22.0,<2",
     "textarena>=0.6.1",
-    "nltk>=3.9.2",
+    "nltk>=3.9.4",
     # For custom Gradio tab (server/gradio_ui.py) when ENABLE_WEB_INTERFACE=true
     "gradio>=4.0.0",
 ]
 
 [project.optional-dependencies]
 dev = [
-    "pytest>=8.0.0",
+    "pytest>=9.0.3",
     "pytest-cov>=4.0.0",
 ]
 
